@@ -175,7 +175,7 @@ def Send23(val):
 #**************************************
 #******ページに表示するadjustment_throttle.html******************
 @webiopi.macro
-def GetGraph(val):
+def GetGraph():
     proc.call("sudo killall sudo", shell=True)
     proc.call("sudo python3 "+path+Graph+" &", shell=True)
     return 1
