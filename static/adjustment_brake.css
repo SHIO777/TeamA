@@ -1,0 +1,64 @@
+.acd-check{
+  display: none;
+  }
+.acd-label{
+  background: #333;
+  color: #fff;
+  display: block;
+  margin-bottom:0px;
+  padding-left:25px;
+  padding-right:25px;
+  width:0px;
+}
+.acd-content{
+  height:150px;
+  width:100px;
+  transition: .5s;
+  visibility: hidden;
+}
+.acd-check:checked + .acd-label + .acd-content{
+  background-color: #6d6d6d;
+  height: 150px;
+  opacity: 1; /*透明度*/
+  visibility: visible;
+  margin-bottom:1px;
+  margin-left:1px;
+  padding-left:25px;
+  padding-right:25px;
+  width:100px;
+}
+.main{
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+
+table th{
+  width:200px;
+  height:24px;
+}
+#a2,#b2{
+    width:50px;
+
+}
+#a0,#b0{
+  width:200px;
+}
+#pic{
+  width:10%;
+  height:auto;
+}
+  
+/*table th{
+    border:0;
+    width:500px;
+    height:24px;
+}
+table td{
+    border:0;
+    width:500px;
+    height:24px;
+}*/
+
+  
