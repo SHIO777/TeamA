@@ -3,7 +3,9 @@
 エンジン搭載ラジコンカーの制御アプリです。車体には Raspberry Pi を搭載していて、Wifi 経由でスマホから司令を送ります。車体上の Raspberry Pi でサーボモータを制御します。
 スマホと Raspberry Pi の通信には、[WebIOPi](http://webiopi.trouch.com/)というライブラリを使用しています。
 
-[!['servo test'](documents/servo_test.png)](https://youtu.be/QhnCNmG5hug)
+[テスト動画 - YouTbe](https://youtu.be/QhnCNmG5hug)
+
+[![servo test](documents/servo_test.png)](https://youtu.be/QhnCNmG5hug)
 
 ![ポスター](documents/Seigyo_poster_public.png)
 
